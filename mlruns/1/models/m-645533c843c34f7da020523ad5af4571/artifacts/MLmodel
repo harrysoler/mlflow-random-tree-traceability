@@ -1,0 +1,23 @@
+artifact_path: /media/data/data_science_postgraduate/seminario_grado_II/class_activity_1_1_mlflow/mlruns/1/models/m-645533c843c34f7da020523ad5af4571/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.18.0
+model_id: m-645533c843c34f7da020523ad5af4571
+model_size_bytes: 111042
+model_uuid: m-645533c843c34f7da020523ad5af4571
+prompts: null
+run_id: dccbb8c336c74411a954f7ac11e9f679
+utc_time_created: '2026-11-06 03:40:46.662296'
